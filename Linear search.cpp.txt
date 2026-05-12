@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+long keyNumber= 796896828;
+int phoneNumber[3];
+int i=0;
+
+//filling numbers
+do {
+cout<<"enter your phone number:"<<end1;
+cin>>phoneNumber[i];
+i=i+1;
+} while (i<3);
+
+//linear search 
+//number anne 
+for (int i=0;i<3;i++){
+ if (phoneNumber[i]==keyNumber){
+cout<<"anne number's found"<<end1;
+break;
+}
+
+}
+
+return 0;
